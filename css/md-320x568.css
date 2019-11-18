@@ -1,0 +1,21 @@
+@media screen and (min-width: 320px) and (max-width: 568px) {
+  /*Main Banner*/
+  .main-banner .banner-title {
+    font-size: 1.7rem;
+    padding: 78px 5px 25px 5px;
+    margin: 0px;
+  }
+
+  .features-section .container .box {
+    width: 100%;
+    margin: 0px 0px 20px 0px;
+  }
+
+  .features-section .container .box:first-child {
+    margin-top: 20px;
+  }
+
+  .features-form h3 {
+    line-height: 1.3;
+  }
+}

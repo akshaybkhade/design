@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+
+  <link rel="icon" href="img/logo.png" type="image/png" sizes="16x16">
+
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+
+  <!-- Media query -->
+  <link rel="stylesheet" type="text/css" href="css/md-320x568.css">
+  <link rel="stylesheet" type="text/css" href="css/md-320x992.css">
+  <link rel="stylesheet" type="text/css" href="css/md-768x992.css">
+  <link rel="stylesheet" type="text/css" href="css/md-1024x1279.css">
+  <link rel="stylesheet" type="text/css" href="css/md-1280x1366.css">
+
+  <link href="https://fonts.googleapis.com/css?family=Lato:700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+
+  <script src="js/main.js"></script>
+
+  <title>M2</title>
+</head>
+<body>
+
+<div class="main">
+  <header>
+    <div class="container">
+      <div class="app-logo">
+        <img src="img/logo.png" alt="logo">
+      </div>
+      <button class="burger-menu" onclick="toggleNav()">
+        <img src="img/menu.svg" alt="">
+      </button>
+      <div class="header-right">
+        <div class="lang-content">
+          <p>21 Sep 2016</p>
+          <p>العربية</p>
+        </div>
+        <div class="header-main-content">
+          <div class="app-nav-list">
+            <ul>
+              <li>
+                <a href="#">About Us</a>
+              </li>
+              <li>
+                <a href="#">Gallery</a>
+              </li>
+              <li>
+                <a href="#">M2 Services</a>
+              </li>
+              <li>
+                <a href="#">News</a>
+              </li>
+              <li>
+                <a href="#">Faq</a>
+              </li>
+              <li>
+                <a href="#">Blog</a>
+              </li>
+              <li>
+                <a href="#">Contact Us</a>
+              </li>
+            </ul>
+
+          </div>
+          <div class="login-register-btns">
+            <button type="button" class="light-btn login-btn">Login/Register</button>
+            <button type="button" class="dark-btn news-signup-btn">News Letter Signup</button>
+          </div>
+          <div class="app-social">
+            <button>
+              <img src="img/twitter.svg" alt="">
+            </button>
+            <button>
+              <img src="img/instagram.svg" alt="">
+            </button>
+            <button>
+              <img src="img/gmail.svg" alt="">
+            </button>
+            <button>
+              <img src="img/fb.svg" alt="">
+            </button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="data-label">
+    <div class="container">
+      <p>
+        <span class="date-details">19  Sep 2016</span>
+        <marquee>
+          <span class="info"><span class="info-title">Sale</span>: Kaifan, Land ,500sqm, 20 Sep 2016</span>
+          <span class="info"><span class="info-title">Wanted</span>:  Nuzha, House, 750sqm, 21 Sep 2016</span>
+          <span class="info"><span class="info-title">Rent</span>: Faiha, Flat, 3 BR, 21 Sep 2016</span>
+        </marquee>
+      </p>
+    </div>
+  </div>
+  <div class="main-banner">
+    <div class="bg-overlay">
+
+    </div>
+    <div class="container">
+      <h1 class="banner-title">
+        Do you want to know the estimate  value of
+        your property?  Right Now?
+      </h1>
+      <button class="banner-btn">Instant Estimate</button>
+
+    </div>
+  </div>
+  <div class="features-section">
+    <div class="container">
+      <div class="box">
+        <div class="box-content">
+          <img src="img/home.svg" alt="">
+          <p>Instant Value <br/> Estimator</p>
+        </div>
+      </div>
+      <div class="box">
+        <div class="box-content">
+          <img src="img/building.svg" alt="">
+          <p>Registered <br/>Trades</p>
+        </div>
+      </div>
+      <div class="box">
+        <div class="box-content">
+          <img src="img/cash.png" alt="">
+          <p>Construction <br/> Cost Estimator</p>
+        </div>
+      </div>
+      <div class="box">
+        <div class="box-content">
+          <img src="img/ad.svg" alt="">
+          <p>M2 Ads</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <div class="forms-section">
+    <div class="container">
+      <div class="features-form">
+        <h3>Instant Value Estimator</h3>
+        <form>
+          <div class="form-item">
+            <label for="area">Area</label>
+            <select id="area" name="country">
+              <option value="au">Area name</option>
+            </select>
+          </div>
+
+          <div class="form-item">
+            <label for="land_size">Land Size (Sqm)</label>
+            <input type="text" id="land_size" name="land_size">
+          </div>
+
+          <div class="form-item">
+            <label for="street">Street Type</label>
+            <select id="street" name="country">
+              <option value="au">Street type name</option>
+            </select>
+          </div>
+
+          <div class="form-item">
+            <label for="plot_location">Plot Location</label>
+            <select id="plot_location" name="country">
+              <option value="au">Back Plot</option>
+            </select>
+          </div>
+
+          <div class="form-item">
+            <label for="back_from_lenght">Back front length</label>
+            <input type="text" id="back_from_lenght" name="land_size">
+          </div>
+
+          <div class="form-item-select">
+            <label>Property type</label>
+            <input type="radio" id="property_type_1" name="radio-group">
+            <label for="property_type_1">Land</label>
+
+            <input type="radio" id="property_type_2" name="radio-group">
+            <label for="property_type_2">House</label>
+
+          </div>
+
+          <div class="form-item">
+            <label for="property_status">Property Status</label>
+            <select id="property_status" name="country">
+              <option value="au">Developed Building</option>
+            </select>
+          </div>
+
+          <div class="form-item">
+            <label for="house_age">House Age (years)</label>
+            <select id="house_age" name="country">
+              <option value="au">1-5</option>
+            </select>
+          </div>
+
+          <div class="form-item">
+            <label for="finishing_quality">Finishing Quality</label>
+            <select id="finishing_quality" name="country">
+              <option value="au">Luxirious</option>
+            </select>
+          </div>
+
+          <div class="form-item">
+            <label for="basement">Basement</label>
+            <select id="basement" name="country">
+              <option value="au">Yes</option>
+            </select>
+          </div>
+
+          <div class="form-item">
+            <label for="no_of_floors">No. of Floors</label>
+            <select id="no_of_floors" name="country">
+              <option value="au">1</option>
+            </select>
+          </div>
+
+          <div class="form-item">
+            <label for="specification_list_1">Specification List 1</label>
+            <select id="specification_list_1" name="country">
+              <option value="au">Specification name</option>
+            </select>
+          </div>
+
+          <div class="advanced-search">
+            <button>
+              <img src="img/plus.png" alt="">
+              <span>Advanced Search</span>
+            </button>
+          </div>
+
+          <div class="calculate-btn">
+            <button>Calculate</button>
+          </div>
+
+          <div class="output-section">
+            <h4>Output</h4>
+            <div class="table-content">
+              <table>
+                <thead>
+                <tr>
+                  <th>Property (KD)</th>
+                  <th>Land (KD)</th>
+                  <th>Building (KD)</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                  <td>1,702,500</td>
+                  <td>943,000</td>
+                  <td>759,500</td>
+                </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div class="share-with">
+              <h5>Share with</h5>
+              <div class="share-img">
+                <img src="img/twitter-logo.png" alt="">
+              </div>
+              <div class="share-img">
+                <img src="img/fb-logo.png" alt="">
+              </div>
+              <div class="share-img">
+                <img src="img/outlook-logo.png" alt="">
+              </div>
+              <div class="share-img">
+                <img src="img/instagram.png" alt="">
+              </div>
+            </div>
+
+          </div>
+
+        </form>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <h5>Copyrights © 2016. All Rights Reserved by M2.</h5>
+  </footer>
+</div>
+
+</body>
+</html>

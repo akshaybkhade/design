@@ -1,0 +1,44 @@
+@media screen and (min-width: 1280px) and (max-width: 1366px) {
+  .container {
+    width: auto;
+    padding: 0px 20px;
+  }
+
+  header .container {
+    height: 125px;
+  }
+
+  .header-right {
+    height: 125px;
+  }
+
+  .app-logo img {
+    width: 125px;
+    height: 80px;
+  }
+
+  .app-social button {
+    height: 37px;
+  }
+
+  /*Header*/
+  .light-btn {
+    padding: 10px;
+  }
+
+  .dark-btn {
+    padding: 10px;
+  }
+
+  .features-section .container .box {
+    margin: 0px 41px;
+  }
+
+  .forms-section::before {
+    left: 118px;
+  }
+
+  .features-form .form-item {
+    margin-right: 29px;
+  }
+}

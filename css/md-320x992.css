@@ -1,0 +1,194 @@
+@media screen and (min-width: 320px) and (max-width: 992px) {
+
+  .container {
+    width: 90%;
+  }
+
+  button {
+    margin: 0px 0px;
+  }
+
+  .app-logo {
+    padding: 10px 0px;
+  }
+
+  .app-logo img {
+    width: 110px;
+    height: 71px;
+  }
+
+  .burger-menu {
+    display: block;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    margin: 25px 23px;
+    background: none;
+    border: none;
+    cursor: context-menu;
+  }
+
+  .burger-menu img {
+    height: 45px;
+    width: 45px;
+  }
+
+  .lang-content {
+    display: none;
+  }
+
+  .data-label {
+    clear: both;
+  }
+
+  /*Nav Bar*/
+  .app-nav-list {
+    display: block;
+  }
+
+  header .container {
+    height: auto;
+  }
+
+  .header-right {
+    height: 415px;
+    display: none;
+    padding: 0px 10px;
+  }
+
+  .header-main-content {
+    float: left;
+  }
+
+  .app-nav-list ul li {
+    display: block;
+    text-align: left;
+    margin: 15px 0px;
+  }
+
+  .login-register-btns {
+    display: inline-grid;
+    float: left;
+    width: 100%;
+  }
+
+  .login-register-btns button {
+    margin: 5px 0px;
+  }
+
+  .news-signup-btn {
+    margin: 0px;
+  }
+
+  .app-social {
+    display: inline-block;
+    width: 100%;
+  }
+
+  .app-social button {
+    height: 60px;
+    width: 60px;
+    margin-right: calc(25% - 62px);
+    margin-left: 0px;
+  }
+
+  .app-social button:last-child {
+    margin-right: 0px;
+  }
+
+  /*Main Banner*/
+
+  .main-banner {
+    height: 300px;
+    background-position: center top;
+  }
+
+  .bg-overlay {
+    height: 300px;
+  }
+
+  .main-banner .banner-title {
+    font-size: 1rem;
+    padding: 78px 5px 25px 5px;
+    margin: 0px;
+  }
+
+  .main-banner .banner-btn {
+    padding: 10px 15px;
+    font-size: 15px;
+  }
+
+  /*Feautures Section*/
+  .features-section {
+    margin-top: 0px;
+  }
+
+  .features-section .container .box {
+    margin: 0px 0px 20px 0px;
+  }
+
+  /*Feature form*/
+  .forms-section {
+    margin-top: 1175px;
+  }
+
+  .features-form h3 {
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .features-form .form-item {
+    width: 100%;
+  }
+
+  .features-form .form-item-select label:first-child {
+    display: block;
+  }
+
+  .forms-section::before {
+    left: 0px;
+    margin: 0px calc(50% - 25px);
+  }
+
+  .calculate-btn {
+    float: none;
+    text-align: center;
+  }
+
+  .output-section {
+    text-align: center;
+  }
+
+  .output-section h4 {
+    margin: 40px 0px 30px 0px;
+  }
+
+  .output-section .share-with {
+    margin-top: 30px;
+    width: auto;
+    float: none;
+    margin-right: 0px;
+  }
+
+  .table-content {
+    width: 100%;
+  }
+
+}
+
+
+@media screen and (min-width: 569px) and (max-width: 767px) {
+  /*Main Banner*/
+  .main-banner .banner-title {
+    font-size: 1.7rem;
+  }
+
+  .features-section .container .box {
+    width: 100%;
+    margin: 0px 0px 20px 0px;
+  }
+
+  .features-section .container .box:first-child {
+    margin-top: 20px;
+  }
+}
